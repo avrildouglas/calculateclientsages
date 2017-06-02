@@ -30,7 +30,6 @@ public static void main(String[] args) {
    
     Scanner input = new Scanner(System.in);
    
- //do{
        do{
               System.out.println("Enter your birth day: ");
               d = input.nextInt();
@@ -50,21 +49,10 @@ public static void main(String[] args) {
        }
  
        }while (response.equalsIgnoreCase("y"));
-//       System.out.println("The number of days in " + Month + " are: " +  numDays + ".");
-       //  System.out.println("Want to enter another month? (Y/N)");
-        // yes = sc.next();
-  //}while (yes.equalsIgnoreCase("y")); 
- 
-//System.out.println(y, m, d);
+
 }
- 
-/**
-*
-* @param year --> Birth Year
-* @param month --> Birth Month
-* @param day --> Birth Day
-* @return --> Calculated Age
-*/
+
+
 private static int calculateMyAge(int year, int month, int day) {
  
        Calendar birthCal = new GregorianCalendar(year, month, day);
